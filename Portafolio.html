@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <section id="inicio" class="inicio">
+        <div class="contenedor-inicio">
+            <h2 id="text-container"></h2>
+
+    
+        
+    
+            <img src="https://raw.githubusercontent.com/codigowebmp/porfolio-basico/c83240299e7055b7aff7d706815940a8d0a17275/img/objeto.svg" alt="" class="objeto">
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="contenedor-skills">
+           <h2>Habilidades tecnicas</h2>
+           <p>Manejo  y domino las siguientes tecnologías: <br>
+            </p>
+
+            <div class="fila">
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/R.4c48053ed95e28a2ec7c6e3b784b1c16?rik=%2fBj8KWCE8bCapQ&riu=http%3a%2f%2fthebamboocode.com%2fwp-content%2fuploads%2f2016%2f03%2fjs-logo.png&ehk=g5YFs6jfGflo%2brZl5LTWfOfewU3YxawHs6HXpKV9faE%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="">
+                    <h3>javascrip</h3>
+                </div>
+                <div class="col">
+                    <img src="https://logodownload.org/wp-content/uploads/2016/10/html5-logo-8.png" alt="">
+                    <h3>html 5 (javascrip y css)</h3>
+                </div>
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/R.8635bee5273ef25c88eaf5b80e05ab54?rik=Otkp2I4oB%2fb66w&pid=ImgRaw&r=0" alt="">
+                    <h3>C#</h3>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="https://clipart-library.com/2023/RcdgAAE9i.png" alt="">
+                    <h3>Sql server </h3>
+                </div>
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <h3>React</h3>
+                </div>
+                <div class="col">
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png" alt="">
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección proyectos -->
+    <section id="portfolio" class="porfolio">
+        <h2>Proyectos</h2>
+        <p>Paginas web , animaciones 3D ,Proyectos MVC</p>
+        <nav>
+            <button class="selected" onclick="mostrar(0)">Proyectos</button>
+            <div class="separador"></div>
+            <button onclick="mostrar(1)">Contactame en mis redes sociales</button>
+            <div class="separador"></div>
+            <button onclick="mostrar(2)">Envia un mensaje directo</button>
+        </nav>
+
+        <div id="proyectos" class="proyectos">
+            <div class="fila">
+                <div class="col">
+                    <img src="https://emstudioweb.com.br/wp-content/uploads/2019/04/criar-site-de-restaurante-ms.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Mis Proyectos</h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://wwwhatsnew.com/wp-content/uploads/2019/06/sshot-196-730x336.jpg" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Mis Proyectos</h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/OIP.ieD23xewRMI1RKB0yk9afQAAAA?w=450&h=300&rs=1&pid=ImgDetMain" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Mis Proyectos</h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="https://shots.codepen.io/2048World/pen/ZErPzPG-800.jpg?version=1655326088" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Mis Proyectos</h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/OIP.fBEIXV2DJN4p3c9ppchAFQHaEK?rs=1&pid=ImgDetMain" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Mis Proyectos</h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn.dribbble.com/users/1342032/screenshots/6290454/galaxy_dribbble.png?compress=1&resize=400x300" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Mis Proyectos</h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="descripcion" class="descripcion">
+         
+        </div>
+
+        <div id="marcas" class="marcas">
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Github</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <h3>Linkedin</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h3>Instagram</h3>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-brands fa-google"></i>
+                    <h3>Google</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>numero de telefono</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-twitter"></i>
+                    <h3>twitter</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-contacto">
+            <div class="img">
+                <img src="https://raw.githubusercontent.com/codigowebmp/porfolio-basico/c83240299e7055b7aff7d706815940a8d0a17275/img/contact-img.svg" alt="">
+            </div>
+            <div class="formulario">
+                <h2>Contactanos Ahora</h2>
+                <div class="fila">
+                    <input type="text" placeholder="Pimer Nombre">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Dirección de Email">
+                    <input type="text" placeholder="Nº Teléfono">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Código Web</p>
+        <div class="redes">
+            <a href="#" class="red">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+                
+            <a href="#" class="red">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="red">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
